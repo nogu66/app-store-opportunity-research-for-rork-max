@@ -12,6 +12,12 @@ A Claude Code skill that automates the entire App Store opportunity research pip
 
 Designed for **indie developers** and **startups** who want to find profitable app ideas and validate them quickly.
 
+### Installation
+
+```bash
+npx skills add https://github.com/froessell/app-store-opportunity-research --skill app-store-opportunity-research
+```
+
 ### What It Does
 
 ```
@@ -85,6 +91,12 @@ MIT
 App Storeの機会発掘パイプラインを自動化するClaude Codeスキルです。未開拓ニッチの発見からiOSプロトタイプの構築まで、すべてを一貫して実行します。
 
 収益性の高いアプリアイデアを見つけて素早く検証したい**個人開発者**や**スタートアップ**向けに設計されています。
+
+### インストール
+
+```bash
+npx skills add https://github.com/froessell/app-store-opportunity-research --skill app-store-opportunity-research
+```
 
 ### 機能概要
 
