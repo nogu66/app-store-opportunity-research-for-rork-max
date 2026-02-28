@@ -101,7 +101,7 @@ For each promising niche area, deep-dive into 5-8 competitor apps:
 
 ### Red Flags (Avoid These Niches)
 - Top app has 1M+ ratings (dominated by a giant)
-- Category requires hardware integration (Apple Watch data, etc.)
+- Category requires specialized hardware not supported by Rork Max
 - Heavy regulation (medical devices, financial trading)
 - All competitors are free with no monetization path
 
@@ -178,9 +178,9 @@ Once the user selects an opportunity, write a comprehensive PRD with these secti
 5. **Screen Map** — All screens listed with parent/child relationships
 6. **User Flow** — Primary user journey from onboarding to daily use
 7. **Monetization** — Free vs Premium feature split, pricing, trial strategy
-8. **Tech Stack** — Framework, libraries, state management, persistence
+8. **Tech Stack** — SwiftUI, Swift, state management, persistence
 9. **AI Features** — If applicable, what AI does and doesn't do
-10. **Data Models** — TypeScript interfaces for core entities
+10. **Data Models** — Swift structs/classes for core entities
 11. **Design Direction** — Color palette (with hex codes), typography, component style, mood
 12. **Launch Strategy** — Week 1-12 plan, marketing channels, content strategy
 13. **Success Metrics** — KPIs with specific targets
@@ -192,12 +192,12 @@ Once the user selects an opportunity, write a comprehensive PRD with these secti
 
 ---
 
-## Step 7: Build on Rork (Optional)
+## Step 7: Build on Rork Max (Optional)
 
-If the user has a Rork account, build a working prototype:
+If the user has a Rork account, build a working native iOS prototype:
 
 1. **Navigate to** https://rork.com
-2. **Select model:** Opus 4.6 (or latest available)
+2. **Verify Rork Max is enabled** — Check that the model toggle at the top of the editor is **orange**. If it's not orange, click the toggle to turn on Rork Max.
 3. **Write the prompt** — Condense the PRD into a detailed Rork prompt covering:
    - App name and purpose (1 sentence)
    - Design system (colors with hex codes, card styles, corner radii, typography)
@@ -205,7 +205,7 @@ If the user has a Rork account, build a working prototype:
    - Each tab/screen with specific UI elements
    - Modal screens with full interaction specs
    - State management approach and mock data
-   - Tech stack (Expo SDK, TypeScript, key libraries)
+   - Native capabilities to leverage (Widgets, HealthKit, AR, etc. as applicable)
 4. **Submit and monitor** the build (typically 5-10 min, 7-10 steps)
 5. **Verify the preview** renders correctly (Cmd+R if stuck on loading)
 6. **Share the project URL** with the user
@@ -234,7 +234,7 @@ NAVIGATION: {N} tabs — {Tab1} ({icon}), {Tab2} ({icon}), ...
 
 STATE MANAGEMENT: {Approach}. Mock data for {N} days.
 
-TECH: Expo SDK 52+, TypeScript, Expo Router, {styling}, {animations}.
+TECH: SwiftUI, Swift, NavigationStack, {native frameworks as needed}.
 ```
 
 ---
