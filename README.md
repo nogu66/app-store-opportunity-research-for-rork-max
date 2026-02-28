@@ -12,6 +12,8 @@ A Claude Code skill that automates the entire App Store opportunity research pip
 
 Designed for **indie developers** and **startups** who want to find profitable app ideas and validate them quickly.
 
+> Based on [froessell/app-store-opportunity-research](https://github.com/froessell/app-store-opportunity-research). Extended with Rork Max integration for native iOS prototype building.
+
 ### Installation
 
 ```bash
@@ -91,6 +93,8 @@ MIT
 App Storeの機会発掘パイプラインを自動化するClaude Codeスキルです。未開拓ニッチの発見からiOSプロトタイプの構築まで、すべてを一貫して実行します。
 
 収益性の高いアプリアイデアを見つけて素早く検証したい**個人開発者**や**スタートアップ**向けに設計されています。
+
+> [froessell/app-store-opportunity-research](https://github.com/froessell/app-store-opportunity-research) をベースに、Rork Maxによるネイティブ iOS プロトタイプ構築機能を追加しています。
 
 ### インストール
 
