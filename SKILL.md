@@ -1,5 +1,5 @@
 ---
-name: app-store-opportunity-research
+name: app-store-opportunity-research-for-rork-max
 description: Full-pipeline App Store opportunity research. Discovers underserved niches, analyzes competitor gaps, produces revenue-validated top-3 opportunity reports, writes MVP PRDs, and builds working prototypes on Rork — all automated through browser research.
 metadata:
   tags: app-store, research, mobile-app, competitor-analysis, market-research, prd, prototype, rork, indie-hacker, startup
